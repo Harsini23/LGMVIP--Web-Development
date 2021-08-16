@@ -1,0 +1,339 @@
+
+
+body, html {
+    height: 100%;
+
+  }
+.parallax {
+    background-image: url("./images/image3.jpg");
+    height: 100%; 
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+ul{
+    list-style-type:none;
+}
+.myul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10px;
+    /* overflow: hidden; */
+    background-color:transparent;
+    /* position: -webkit-sticky; 
+    position: sticky; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(45, 73, 109);
+  
+  }
+  
+ .myli {
+    left: 20px;
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: rgb(31, 31, 31);
+  }
+  .text-block {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(42, 40, 40);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 35px;
+    background-color: rgb(249, 253, 255);
+    color: rgb(24, 23, 23);
+  
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+    padding: 30px;
+  }
+  .secondpart{
+      background-color: rgb(238, 238, 238);
+      text-align: center;
+      padding: 50px;
+      color: rgb(12, 10, 10);
+      width: 100%;
+      height: 700px;
+  }
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+  }
+  input[type=submit], input[type=search] {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #f1f1f1;
+    font:20px 'Yomogi', cursive;
+    font-family: 'Yomogi', cursive;
+  }
+  .btn{
+    background-color: #243250;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+    overflow: hidden;
+  transition: all .5s;
+  font: bold 14px 'Bitter', sans-serif;
+    
+  }
+  .btn:hover{
+      opacity: 1;
+      color: #000;
+      background-color: rgb(230, 211, 187);
+   
+  }
+  .buttonfx:hover:after{
+    transform: translate3D(0,0,0);
+    transition: all .5s;
+  }
+  
+  
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: #243755;
+        padding: 5px;
+    }
+  .grid-item{
+
+color: rgb(255, 253, 250);
+font-size: 30px;
+padding: 10px;
+  } 
+  .grid-item:hover{
+      background-color: rgb(228, 226, 216);
+      color: #000;
+  } 
+
+  .content{
+      font-size: 25px;
+  }
+  #id{
+      background-image: url("images/image3.jpg");
+  }
+  .myimg1{
+    background-image: url("images/img4.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    color: #000;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
+  #sec{
+    background-image: url("images/img5.jpg");
+  }
+  #third{
+    background-image: url("images/img6.jpg");
+  }
+  .mygrid{
+    display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: auto;
+
+  }
+  .g1{
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 20px;
+
+  }
+  .g1:hover{
+    background-color: rgb(230, 196, 130);
+   /*  padding: 20px;
+    width: 400px;
+    height: 300px; */
+  } 
+  .cont{
+    height: 1000px;
+  }
+  .nl{
+    padding: 200px;
+    width: 100%;
+    height: 400px;
+    background-color: honeydew;
+    margin: 50px;
+
+  }
+  .blackbox{
+    background-color: rgb(37, 37, 37);
+    color: rgb(245, 238, 238);
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  
+    .box{
+      font-size: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; 
+    }
+    .b1{
+      justify-content: space-between;
+      display: flex;
+      text-align: left;
+      flex-direction:column;
+      align-items: center;
+      font-size: 35px;
+    } 
+    .mycolor{
+      background-color: rgb(246, 234, 204);
+      height: 700px;
+    }
+    .mytimeline {
+      position: relative;
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #243755;
+    }
+    
+    .mytimeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: white;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+    
+    .container {
+      padding: 10px 30px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    
+    .container::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -17px;
+      background-color: white;
+      border: 4px solid #f8b480;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .left {
+      left: 0;
+    }
+    
+    .right {
+      left: 50%;
+    }
+    
+    .left::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 20px;
+      width: 0;
+      z-index: 1;
+      right: 30px;
+      border: medium solid white;
+      border-width: 5px 0 5px 5px;
+      border-color: transparent transparent transparent white;
+    }
+    
+    .right::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      left: 30px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+    
+    .right::after {
+      left: -16px;
+    }
+    
+    .content {
+      padding: 20px 30px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .timeline::after {
+      left: 30px;
+      }
+         
+      .container {
+      width: 100%;
+      padding-left: 61px;
+      padding-right: 20px;
+      }
+      
+      .container::before {
+      left: 50px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+      }
+  
+      .left::after, .right::after {
+      left: 15px;
+      }
+      
+      .right {
+      left: 0%;
+      }
+    }
