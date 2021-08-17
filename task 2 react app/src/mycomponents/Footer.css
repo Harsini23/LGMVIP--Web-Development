@@ -105,11 +105,39 @@ ul{
   }
 }
 .displaybox{
-  background-color: #f0c39a;
+  background-color: #986D8E;
+  border:2px solid black;
   border-radius: 20px;
   width: 350px;
-  height: 450px;
+  height: 540px;
+  
 }
+.background{
+  background-color: bisque;
+}
+
+#userStyle{
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(2,1fr);
+  margin-top:30px;
+  margin-bottom: 30px;
+  grid-gap: 30px;
+}
+@media(min-width:1000px){
+  #userStyle{
+    grid-template-columns: repeat(3,1fr);
+  
+  }
+  }
+  @media(max-width:900px){
+    #userStyle{
+      grid-template-columns: repeat(1,1fr);
+      
+    
+    }
+    }
+  
 
 
 
