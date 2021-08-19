@@ -45,6 +45,7 @@ margin: 20px;
      height: 800px;
 
  }
+ @media (min-width: 700px) {
  .centered {
     position: absolute;
     top: 50%;
@@ -52,7 +53,7 @@ margin: 20px;
     color: rgb(255, 253, 253);
     font-size: 30px;
     transform: translate(-50%, -50%);
-  }
+  }}
   input[type=submit], input[type=search],input[type=text] {
     text-align: center;
     width: 90%;
@@ -96,7 +97,7 @@ margin: 20px;
       padding: 10px;
       margin: 10px;
   }
-
+  @media (min-width: 700px) {
   .mygrid{
     font-size: 30px; 
     align-items: center;
@@ -106,7 +107,7 @@ margin: 20px;
     margin-left:150px;
     grid-gap: 30px;
     text-align: center;
-  }
+  }}
   .title{
       padding: 20px;
       margin: 10px;
@@ -146,11 +147,12 @@ hr{
     margin: 30px;
 }
 /* projects */
+@media (min-width: 700px) {
 .projects{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 10px;
-}
+}}
 .alignimg{
     width: 350px;
     height: 500px;
@@ -170,6 +172,7 @@ hr{
  color:white;
 }
 /* pricingtables */
+@media (min-width: 700px) {
 .pricing{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -178,7 +181,7 @@ hr{
     background-color: #c3b9b5;
     padding: 20px;
 
-}
+}}
 ul{
     list-style-type:none;
     text-align: center;
@@ -255,14 +258,14 @@ ul:hover{
   clear: both;
 }
 
-
+@media (min-width: 700px) {
 .container {
   display: none;
   width: 800px;height: 800px;
   align-items: center;
   margin-left: 200px;
   margin-top: 40px;
-}
+}}
 #imgtext {
   position: absolute;
   bottom: 15px;
@@ -270,7 +273,7 @@ ul:hover{
   color: white;
   font-size: 20px;
 }
-
+@media (min-width: 700px) {
 .mymap{
   background-color: rgb(169, 155, 245);
   font-size: 30px; 
@@ -279,12 +282,13 @@ ul:hover{
   padding: 10px;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 30px;
-}
+}}
 .bottomfooter{
   background-image: url("./images/img3.jpg");
   height: 500px;
 
 }
+@media (min-width: 700px) {
 .footerbox{
   font-size: 70px;
   display: flex;
@@ -298,4 +302,4 @@ ul:hover{
   flex-direction:column;
   align-items: center;
   font-size: 35px;
-} 
+} }
